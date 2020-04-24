@@ -48,7 +48,7 @@ for f in $flist; do
          sed -e "s/\"err\":{},/\"err\":{\"message\":\"\",\"estack\":\"\",\"diff\":null},/g" mochawesome-report/_$f > mochawesome-report/$f
       fi
 
-      rm -f mochawesome/_$f
+      rm -f mochawesome-report/_$f
       
       # If the file is the final minified report and there are no skipped tests, then proceed
       isFullReport=$(echo $f | grep -cim1 "report.json")
