@@ -4,7 +4,7 @@
   "description": "This package will generate a mochawesome report and prepare it to be uploaded to a google big query table",
   "main": "lib/index.js",
   "bin": {
-    "gbq-prep-report": "bin/formatReport.js"
+    "mochawesome-to-gbq": "bin/formatReport.js"
   },
   "scripts": {
     "generate:reports": "npm run mochawesome:report",
