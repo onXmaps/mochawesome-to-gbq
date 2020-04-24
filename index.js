@@ -1,3 +1,4 @@
+const cp = require('child_process')
 exports.prepareReport = function() {
-    console.log("testing!")
+    cp.spawn('formatReport', ['./formatReport.sh'])
 }
