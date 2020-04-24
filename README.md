@@ -7,7 +7,7 @@ Get the latest Google Cloud SDK at https://cloud.google.com/sdk/docs#install_the
 
 ### Npm package
 ```
-npm install -D @coltdorsey/mochawesome-to-gbq
+npm install -D https://github.com/coltadorsey/mochawesome-to-gbq.git
 ```
 
 ## Google Cloud configuration
