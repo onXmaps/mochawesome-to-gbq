@@ -2,7 +2,10 @@
   "name": "@coltdorsey/mochawesome-to-gbq",
   "version": "1.0.0",
   "description": "This package will generate a mochawesome report and prepare it to be uploaded to a google big query table",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "gbq-prep-report": "bin/format-report.js"
+  },
   "scripts": {
     "generate:reports": "npm run mochawesome:report",
     "premochawesome:report": "npx mochawesome-merge > mochawesome-report/report.json",
@@ -10,7 +13,7 @@
     "clear:artifacts": "rm -fvr mochawesome-report",
     "prestart": "npm run clear:artifacts",
     "start": "./formatReport.sh",
-    "test": "start"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,7 @@
     "google big query table schema",
     "mochawesome report formatter"
   ],
-  "author": "Colt Dorsey",
+  "author": "Colt Dorsey coltdorsey@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/coltadorsey/mochawesome-to-gbq/issues"
