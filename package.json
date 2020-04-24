@@ -7,6 +7,9 @@
     "generate:reports": "npm run mochawesome:report",
     "premochawesome:report": "npx mochawesome-merge > mochawesome-report/report.json",
     "mochawesome:report": "npx mochawesome-report-generator mochawesome-report/report.json",
+    "clear:artifacts": "rm -fvr mochawesome-report",
+    "prestart": "npm run clear:artifacts",
+    "start": "./formatReport.sh",
     "test": "start"
   },
   "repository": {
