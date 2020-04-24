@@ -1,0 +1,26 @@
+{
+  "name": "@coltdorsey/mochawesome-to-gbq",
+  "version": "1.0.0",
+  "description": "This package will generate a mochawesome report and prepare it to be uploaded to a google big query table",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https@github.com/coltadorsey/mochawesome-to-gbq.git"
+  },
+  "keywords": [
+    "mochawesome report",
+    "google big query",
+    "gbq",
+    "google big query table schema",
+    "mochawesome report formatter"
+  ],
+  "author": "Colt Dorsey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coltadorsey/mochawesome-to-gbq/issues"
+  },
+  "homepage": "https://github.com/coltadorsey/mochawesome-to-gbq#readme"
+}
