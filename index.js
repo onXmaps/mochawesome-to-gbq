@@ -8,7 +8,7 @@ exports.prepareReport = function() {
     //     } 
     // })
 
-    cp.exec("formatReport", "./formatReport", function (error, stdout, stderr) {
+    cp.exec("formatReport", "./formatReport.sh", function (error, stdout, stderr) {
         console.log('stdout: ' + stdout);
         console.log('stderr: ' + stderr);
         if (error !== null) {
