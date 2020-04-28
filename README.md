@@ -41,5 +41,5 @@ gcloud config set project PROJECT_ID
 
 ## Use this package
 ```
-npx mochawesome-to-gbq -- DS=your_data_store TBLREPORT=your_report_name
+DS=your_data_store TBLREPORT=your_report_name npx mochawesome-to-gbq
 ```
