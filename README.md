@@ -13,7 +13,7 @@ in the `mochawesome-report` directory.
 When a mochawesome report file is uploaded to Google Big Query, the table schema is auto detected. 
 The attributes and values set in the initial upload dictate the table schema. 
 Any subsequent uploads to the same table that result in a mismatch of the initial table schema will result in an upload failure. 
-These modificiations mitigate upload discrepancies when percentages switch between an `INTEGER` (ie 100%) or a `FLOAT` (ie 98.8888%)
+These modificiations mitigate upload discrepancies when percentages switch between an `INTEGER` (ie 100) or a `FLOAT` (ie 98.8888)
 and when the field `err` has zero or more records.
 
 ## Installation
