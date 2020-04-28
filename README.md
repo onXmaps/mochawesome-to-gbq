@@ -1,6 +1,6 @@
 # What is mochawesome-to-gbq
 This package modifies and uploads mochawesome report files to a given Google Big Query data store.
-The report files can be generated with [mochawesome](https://github.com/adamgruber/mochawesome.
+The report files can be generated with [mochawesome](https://github.com/adamgruber/mochawesome).
 This package will merge the report files with [mochawesome-merge](https://github.com/Antontelesh/mochawesome-merge) 
 and generate a report with [mochawesome-report-generator](https://github.com/adamgruber/mochawesome-report-generator) 
 in the `mochawesome-report` directory.
